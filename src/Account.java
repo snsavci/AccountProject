@@ -16,7 +16,7 @@ public class Account {
             return "❌ Passwords do not match.";
         }
         if (dob == null || !dob.matches("^\\d{2}/\\d{2}/\\d{4}$")) {
-            return "❌ Date of birth must be in the format dd/mm/yyyy.";
+            return "❌ Date of birth must be in the format dd/mm/yyyy..";
         }
         return "✅ Account created successfully!";
     }
