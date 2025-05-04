@@ -30,7 +30,9 @@ AccountProject/
 │   ├── Account.java          # Validation logic
 │   ├── AccountForm.java      # Swing UI
 │   └── AccountTest.java      # Unit tests
-
+│
+└── images/
+    └── screenshot.png
 ````
 
 ## 🚀 Getting Started
@@ -68,7 +70,9 @@ Every `push` and `pull_request` triggers the GitHub Actions workflow defined in 
 
 ## 📷 Screenshots
 
-> *(You can add screenshots of your UI here if available)*
+Here is a screenshot of the account creation form:
+
+![Account Form Screenshot](images/screenshot.png)
 
 ## 📄 License
 
