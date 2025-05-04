@@ -23,7 +23,7 @@ AccountProject/
 ├── .github/workflows/
 │   └── test.yml              # GitHub Actions workflow for CI
 │
-└── images/
+├── images/
 │    └── screenshot.png
 │
 ├── lib/
@@ -34,7 +34,7 @@ AccountProject/
 │   ├── AccountForm.java      # Swing UI
 │   └── AccountTest.java      # Unit tests
 │
-├── README.md
+└── README.md
 ````
 
 ## 🚀 Getting Started
@@ -50,8 +50,8 @@ AccountProject/
 To launch the GUI form:
 
 ```bash
-javac -d bin src/Account.java src/AccountForm.java
-java -cp bin AccountForm
+javac -cp lib/junit-platform-console-standalone-1.9.0.jar -encoding UTF-8 src/*.java
+java -cp src AccountForm
 ````
 
 ### Running Tests Manually
