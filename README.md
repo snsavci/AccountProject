@@ -74,8 +74,5 @@ Here is a screenshot of the account creation form:
 
 ![Account Form Screenshot](images/screenshot.png)
 
-## 📄 License
-
-This project is licensed under the MIT License - feel free to use, modify, and distribute.
 
 
