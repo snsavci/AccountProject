@@ -23,6 +23,9 @@ AccountProject/
 ├── .github/workflows/
 │   └── test.yml              # GitHub Actions workflow for CI
 │
+└── images/
+│    └── screenshot.png
+│
 ├── lib/
 │   └── junit-platform-console-standalone-1.9.0.jar  # JUnit 5 runner
 │
@@ -31,8 +34,7 @@ AccountProject/
 │   ├── AccountForm.java      # Swing UI
 │   └── AccountTest.java      # Unit tests
 │
-└── images/
-    └── screenshot.png
+├── README.md
 ````
 
 ## 🚀 Getting Started
