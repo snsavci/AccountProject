@@ -57,8 +57,9 @@ java -cp src AccountForm
 ### Running Tests Manually
 
 ```bash
-javac -d bin -cp "lib/junit-platform-console-standalone-1.9.0.jar" src/*.java
-java -jar lib/junit-platform-console-standalone-1.9.0.jar --classpath bin --select-class AccountTest
+javac -encoding UTF-8 -cp ".;lib\junit-platform-console-standalone-1.9.0.jar" src\Account.java src\AccountForm.java src\AccountTest.java
+java -jar lib\junit-platform-console-standalone-1.9.0.jar --classpath src --select-class AccountTest
+
 ```
 
 ## 🔁 CI/CD with GitHub Actions
